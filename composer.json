@@ -1,0 +1,22 @@
+{
+    "name": "damian/football-score-board",
+    "description": "Library for storing and displaying football games scores.",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^10.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Damian\\FootballScoreBoard\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Damian",
+            "email": "contact@dwisniewski.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
