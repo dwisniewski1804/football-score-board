@@ -11,6 +11,11 @@
             "Damian\\FootballScoreBoard\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Damian\\FootballScoreBoard\\Tests\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "Damian",
@@ -18,5 +23,8 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {},
+    "scripts": {
+        "run-tests": "./vendor/bin/phpunit tests"
+    }
 }
