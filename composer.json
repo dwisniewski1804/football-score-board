@@ -23,7 +23,9 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {},
+    "require": {
+        "doctrine/collections": "^2.1"
+    },
     "scripts": {
         "run-tests": "./vendor/bin/phpunit tests"
     }
